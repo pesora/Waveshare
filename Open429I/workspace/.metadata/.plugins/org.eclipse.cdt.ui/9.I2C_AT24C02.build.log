@@ -1,0 +1,10 @@
+16:02:06 **** Incremental Build of configuration Debug for project 9.I2C_AT24C02 ****
+make -j12 all 
+arm-none-eabi-size  9.I2C_AT24C02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14732	    112	   2576	  17420	   440c	9.I2C_AT24C02.elf
+Finished building: default.size.stdout
+ 
+
+16:02:07 Build Finished. 0 errors, 0 warnings. (took 338ms)
+

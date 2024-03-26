@@ -1,0 +1,76 @@
+Configuration	STM32F429I
+STM32CubeMX 	4.11.0
+Date	11/12/2015
+MCU	STM32F439IGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+FMC:NAND Flash 1	NCE2	FMC_NCE2	PD7
+FMC:NAND Flash 1	8 bits	FMC_D0	PD14
+FMC:NAND Flash 1	8 bits	FMC_D1	PD15
+FMC:NAND Flash 1	8 bits	FMC_D2	PD0
+FMC:NAND Flash 1	8 bits	FMC_D3	PD1
+FMC:NAND Flash 1	8 bits	FMC_D4	PE7
+FMC:NAND Flash 1	8 bits	FMC_D5	PE8
+FMC:NAND Flash 1	8 bits	FMC_D6	PE9
+FMC:NAND Flash 1	8 bits	FMC_D7	PE10
+FMC:NAND Flash 1	8 bits	FMC_ALE	PD12
+FMC:NAND Flash 1	8 bits	FMC_CLE	PD11
+FMC:NAND Flash 1	8 bits	FMC_NOE	PD4
+FMC:NAND Flash 1	8 bits	FMC_NWE	PD5
+FMC:NAND Flash 1	NWAIT	FMC_NWAIT	PD6
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0/OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1/OSC_OUT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+29	PH0/OSC_IN	RCC_OSC_IN	
+30	PH1/OSC_OUT	RCC_OSC_OUT	
+68	PE7	FMC_D4	
+69	PE8	FMC_D5	
+70	PE9	FMC_D6	
+73	PE10	FMC_D7	
+99	PD11	FMC_CLE	
+100	PD12	FMC_ALE	
+104	PD14	FMC_D0	
+105	PD15	FMC_D1	
+120	PA9	USART1_TX	
+121	PA10	USART1_RX	
+142	PD0	FMC_D2	
+143	PD1	FMC_D3	
+146	PD4	FMC_NOE	
+147	PD5	FMC_NWE	
+150	PD6	FMC_NWAIT	
+151	PD7	FMC_NCE2	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32F429I
+Project Folder : C:\Users\Administrator\Desktop\stm32cube\STM32F429I\32.NandFlash
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

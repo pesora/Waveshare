@@ -1,0 +1,10 @@
+- stm32f429IGT6용 Drivers 폴더를 통째로 복사하던지
+  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f439xx.h --> stm32f429xx.h를 복사한다
+- 링크스크립트 파일 복사
+- startup 파일 복사
+- GCC 링크스크립트 연결: 절대경로를 사용하지 말고 다음 경로를 지정한다
+  (그렇지 않으면 경로가 바뀌면 수정해야 한다)
+  
+  ${workspace_loc:/${ProjName}/TM32F429IGTX_FLASH.ld}
+  
+- Compiler Preprocessor를 설정: STM32F429xx

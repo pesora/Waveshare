@@ -1,0 +1,19 @@
+15:05:42 **** Incremental Build of configuration Debug for project STM32F429I ****
+make -j12 all 
+arm-none-eabi-gcc -o "STM32F429I.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Sunshine\Tutorials\Waveshare_Open429I\workspace\6.UART\3.USRAT-DMA\STM32F429IGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429I.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F429I.elf
+ 
+arm-none-eabi-size  STM32F429I.elf 
+arm-none-eabi-objdump -h -S STM32F429I.elf  > "STM32F429I.list"
+arm-none-eabi-objcopy  -O binary STM32F429I.elf  "STM32F429I.bin"
+   text	   data	    bss	    dec	    hex	filename
+  13100	    112	   1736	  14948	   3a64	STM32F429I.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F429I.bin
+Finished building: STM32F429I.list
+ 
+ 
+
+15:05:44 Build Finished. 0 errors, 0 warnings. (took 1s.367ms)
+

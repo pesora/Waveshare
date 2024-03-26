@@ -1,0 +1,10 @@
+20:13:05 **** Incremental Build of configuration Debug for project 06-3.USRAT-DMA ****
+make -j12 all 
+arm-none-eabi-size  06-3.USRAT-DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13100	    112	   1736	  14948	   3a64	06-3.USRAT-DMA.elf
+Finished building: default.size.stdout
+ 
+
+20:13:06 Build Finished. 0 errors, 0 warnings. (took 962ms)
+

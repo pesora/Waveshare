@@ -1,0 +1,10 @@
+20:10:56 **** Incremental Build of configuration Debug for project 06-2.USRAT_IT ****
+make -j12 all 
+arm-none-eabi-size  06-2.USRAT_IT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12608	    144	   1856	  14608	   3910	06-2.USRAT_IT.elf
+Finished building: default.size.stdout
+ 
+
+20:10:57 Build Finished. 0 errors, 0 warnings. (took 966ms)
+

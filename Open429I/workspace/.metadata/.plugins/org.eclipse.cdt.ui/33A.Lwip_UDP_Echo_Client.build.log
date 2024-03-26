@@ -1,0 +1,10 @@
+20:05:55 **** Incremental Build of configuration Debug for project 33A.Lwip_UDP_Echo_Client ****
+make -j12 all 
+arm-none-eabi-size  33A.Lwip_UDP_Echo_Client.elf 
+   text	   data	    bss	    dec	    hex	filename
+  70280	    120	  35472	 105872	  19d90	33A.Lwip_UDP_Echo_Client.elf
+Finished building: default.size.stdout
+ 
+
+20:05:56 Build Finished. 0 errors, 0 warnings. (took 1s.460ms)
+

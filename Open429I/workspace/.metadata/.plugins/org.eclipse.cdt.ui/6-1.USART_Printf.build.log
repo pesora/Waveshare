@@ -1,0 +1,9 @@
+10:51:46 **** Incremental Build of configuration Debug for project 6-1.USART_Printf ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F429xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+make: *** No rule to make target 'F:\7.Sunshine\Tutorials\Waveshare_Open429I\workspace\6.UART\6-1.USART_Printf\STM32F429IGTX_FLASH.ld', needed by '6-1.USART_Printf.elf'.  Stop.
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+10:51:47 Build Failed. 2 errors, 0 warnings. (took 755ms)
+

@@ -1,0 +1,91 @@
+Configuration	USB
+STM32CubeMX 	4.19.0
+Date	03/16/2017
+MCU	STM32F407IGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	NE1	FSMC_NE1	PD7
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	LCD Interface	FSMC_NOE	PD4
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	LCD Interface	FSMC_NWE	PD5
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	A15	FSMC_A15	PG5
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D0	PD14
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D1	PD15
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D2	PD0
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D3	PD1
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D4	PE7
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D5	PE8
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D6	PE9
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D7	PE10
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D8	PE11
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D9	PE12
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D10	PE13
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D11	PE14
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D12	PE15
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D13	PD8
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D14	PD9
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D15	PD10
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USB_OTG_FS	Host_Only	USB_OTG_FS_DM	PA11
+USB_OTG_FS	Host_Only	USB_OTG_FS_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+29	PH0-OSC_IN	RCC_OSC_IN	
+30	PH1-OSC_OUT	RCC_OSC_OUT	
+33	PC1	GPIO_Output	OTG_PWR_OUT
+68	PE7	FSMC_D4	
+69	PE8	FSMC_D5	
+70	PE9	FSMC_D6	
+73	PE10	FSMC_D7	
+74	PE11	FSMC_D8	
+75	PE12	FSMC_D9	
+76	PE13	FSMC_D10	
+77	PE14	FSMC_D11	
+78	PE15	FSMC_D12	
+96	PD8	FSMC_D13	
+97	PD9	FSMC_D14	
+98	PD10	FSMC_D15	
+104	PD14	FSMC_D0	
+105	PD15	FSMC_D1	
+109	PG5	FSMC_A15	
+122	PA11	USB_OTG_FS_DM	
+123	PA12	USB_OTG_FS_DP	
+142	PD0	FSMC_D2	
+143	PD1	FSMC_D3	
+146	PD4	FSMC_NOE	
+147	PD5	FSMC_NWE	
+151	PD7	FSMC_NE1	
+157	PG14	GPIO_Output	LCD_CS
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : USB
+Project Folder : E:\EVK407I-Demo-HAL\10.USB_Host\FS_FatFs_USBDisk
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.14.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+20:22:02 **** Incremental Build of configuration Debug for project Lwip_UDP_Server ****
+make -j12 all 
+arm-none-eabi-size  Lwip_UDP_Server.elf 
+   text	   data	    bss	    dec	    hex	filename
+  83148	    148	  36820	 120116	  1d534	Lwip_UDP_Server.elf
+Finished building: default.size.stdout
+ 
+
+20:22:03 Build Finished. 0 errors, 0 warnings. (took 1s.94ms)
+

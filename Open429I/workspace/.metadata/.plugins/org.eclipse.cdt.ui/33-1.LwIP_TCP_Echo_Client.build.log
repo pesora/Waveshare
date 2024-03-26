@@ -1,0 +1,119 @@
+10:20:34 **** Incremental Build of configuration Debug for project 33-1.LwIP_TCP_Echo_Client ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/ethernetif.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/ethernetif.d" -MT"Src/ethernetif.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/ethernetif.o"
+arm-none-eabi-gcc "../Src/tcp_echoclient.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/tcp_echoclient.d" -MT"Src/tcp_echoclient.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/tcp_echoclient.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/magic.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/magic.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/magic.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/magic.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/mppe.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/mppe.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/mppe.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/mppe.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/multilink.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/multilink.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/multilink.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/multilink.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/ppp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/ppp.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/ppp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/ppp.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/pppapi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/pppapi.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/pppapi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/pppapi.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/pppcrypt.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/pppcrypt.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/pppcrypt.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/pppcrypt.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/pppoe.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/pppoe.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/pppoe.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/pppoe.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/pppol2tp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/pppol2tp.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/pppol2tp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/pppol2tp.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/pppos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/pppos.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/pppos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/pppos.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LwIP/src/netif/ppp/upap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/system/arch -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/LwIP/src/netif/ppp/upap.d" -MT"Middlewares/Third_Party/LwIP/src/netif/ppp/upap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LwIP/src/netif/ppp/upap.o"
+../Src/tcp_echoclient.c: In function 'tcp_echoclient_connect':
+../Src/tcp_echoclient.c:84:18: error: storage size of 'DestIPaddr' isn't known
+   84 |   struct ip_addr DestIPaddr;
+      |                  ^~~~~~~~~~
+../Src/tcp_echoclient.c:84:18: warning: unused variable 'DestIPaddr' [-Wunused-variable]
+../Src/ethernetif.c:88:46: error: expected ':', ',', ';', '}' or '__attribute__' before '__ALIGNED'
+   88 |   uint8_t buff[(ETH_RX_BUF_SIZE + 31) & ~31] __ALIGNED(32);
+      |                                              ^~~~~~~~~
+make: *** [Src/subdir.mk:49: Src/tcp_echoclient.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/ethernetif.c:98:34: error: 'ETH_RX_DESC_CNT' undeclared here (not in a function)
+   98 | ETH_DMADescTypeDef  DMARxDscrTab[ETH_RX_DESC_CNT]; /* Ethernet Rx DMA Descriptors */
+      |                                  ^~~~~~~~~~~~~~~
+../Src/ethernetif.c:99:34: error: 'ETH_TX_DESC_CNT' undeclared here (not in a function)
+   99 | ETH_DMADescTypeDef  DMATxDscrTab[ETH_TX_DESC_CNT]; /* Ethernet Tx DMA Descriptors */
+      |                                  ^~~~~~~~~~~~~~~
+../Src/ethernetif.c:107:1: error: unknown type name 'ETH_TxPacketConfig'
+  107 | ETH_TxPacketConfig TxConfig;
+      | ^~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c: In function 'low_level_init':
+../Src/ethernetif.c:149:30: error: 'HAL_ETH_RMII_MODE' undeclared (first use in this function); did you mean 'IS_ETH_RX_MODE'?
+  149 |   heth.Init.MediaInterface = HAL_ETH_RMII_MODE;
+      |                              ^~~~~~~~~~~~~~~~~
+      |                              IS_ETH_RX_MODE
+../Src/ethernetif.c:149:30: note: each undeclared identifier is reported only once for each function it appears in
+../Src/ethernetif.c:150:12: error: 'ETH_InitTypeDef' has no member named 'TxDesc'
+  150 |   heth.Init.TxDesc = DMATxDscrTab;
+      |            ^
+../Src/ethernetif.c:151:12: error: 'ETH_InitTypeDef' has no member named 'RxDesc'
+  151 |   heth.Init.RxDesc = DMARxDscrTab;
+      |            ^
+../Src/ethernetif.c:152:12: error: 'ETH_InitTypeDef' has no member named 'RxBuffLen'
+  152 |   heth.Init.RxBuffLen = 1536;
+      |            ^
+../Src/ethernetif.c:160:32: error: 'ETH_TxPacketConfig' undeclared (first use in this function)
+  160 |   memset(&TxConfig, 0 , sizeof(ETH_TxPacketConfig));
+      |                                ^~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:161:11: error: request for member 'Attributes' in something not a structure or union
+  161 |   TxConfig.Attributes = ETH_TX_PACKETS_FEATURES_CSUM | ETH_TX_PACKETS_FEATURES_CRCPAD;
+      |           ^
+../Src/ethernetif.c:161:25: error: 'ETH_TX_PACKETS_FEATURES_CSUM' undeclared (first use in this function)
+  161 |   TxConfig.Attributes = ETH_TX_PACKETS_FEATURES_CSUM | ETH_TX_PACKETS_FEATURES_CRCPAD;
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:161:56: error: 'ETH_TX_PACKETS_FEATURES_CRCPAD' undeclared (first use in this function)
+  161 |   TxConfig.Attributes = ETH_TX_PACKETS_FEATURES_CSUM | ETH_TX_PACKETS_FEATURES_CRCPAD;
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:162:11: error: request for member 'ChecksumCtrl' in something not a structure or union
+  162 |   TxConfig.ChecksumCtrl = ETH_CHECKSUM_IPHDR_PAYLOAD_INSERT_PHDR_CALC;
+      |           ^
+../Src/ethernetif.c:162:27: error: 'ETH_CHECKSUM_IPHDR_PAYLOAD_INSERT_PHDR_CALC' undeclared (first use in this function)
+  162 |   TxConfig.ChecksumCtrl = ETH_CHECKSUM_IPHDR_PAYLOAD_INSERT_PHDR_CALC;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:163:11: error: request for member 'CRCPadCtrl' in something not a structure or union
+  163 |   TxConfig.CRCPadCtrl = ETH_CRC_PAD_INSERT;
+      |           ^
+../Src/ethernetif.c:163:25: error: 'ETH_CRC_PAD_INSERT' undeclared (first use in this function)
+  163 |   TxConfig.CRCPadCtrl = ETH_CRC_PAD_INSERT;
+      |                         ^~~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:184:16: error: 'ETH_MAX_PAYLOAD' undeclared (first use in this function); did you mean 'ETH_MAX_ETH_PAYLOAD'?
+  184 |   netif->mtu = ETH_MAX_PAYLOAD;
+      |                ^~~~~~~~~~~~~~~
+      |                ETH_MAX_ETH_PAYLOAD
+../Src/ethernetif.c: In function 'low_level_output':
+../Src/ethernetif.c:235:3: error: unknown type name 'ETH_BufferTypeDef'
+  235 |   ETH_BufferTypeDef Txbuffer[ETH_TX_DESC_CNT] = {0};
+      |   ^~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:237:47: error: 'ETH_BufferTypeDef' undeclared (first use in this function)
+  237 |   memset(Txbuffer, 0 , ETH_TX_DESC_CNT*sizeof(ETH_BufferTypeDef));
+      |                                               ^~~~~~~~~~~~~~~~~
+../Src/ethernetif.c:260:11: error: request for member 'Length' in something not a structure or union
+  260 |   TxConfig.Length = p->tot_len;
+      |           ^
+../Src/ethernetif.c:261:11: error: request for member 'TxBuffer' in something not a structure or union
+  261 |   TxConfig.TxBuffer = Txbuffer;
+      |           ^
+../Src/ethernetif.c:262:11: error: request for member 'pData' in something not a structure or union
+  262 |   TxConfig.pData = p;
+      |           ^
+../Src/ethernetif.c:264:3: warning: implicit declaration of function 'HAL_ETH_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  264 |   HAL_ETH_Transmit(&heth, &TxConfig, ETH_DMA_TRANSMIT_TIMEOUT);
+      |   ^~~~~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Src/ethernetif.c:235:21: warning: unused variable 'Txbuffer' [-Wunused-variable]
+  235 |   ETH_BufferTypeDef Txbuffer[ETH_TX_DESC_CNT] = {0};
+      |                     ^~~~~~~~
+../Src/ethernetif.c: In function 'low_level_input':
+../Src/ethernetif.c:283:5: warning: implicit declaration of function 'HAL_ETH_ReadData'; did you mean 'HAL_ETH_GetState'? [-Wimplicit-function-declaration]
+  283 |     HAL_ETH_ReadData(&heth, (void **)&p);
+      |     ^~~~~~~~~~~~~~~~
+      |     HAL_ETH_GetState
+In file included from C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:17,
+                 from ../Src/ethernetif.c:34:
+../Src/ethernetif.c: In function 'HAL_ETH_RxAllocateCallback':
+../Src/ethernetif.c:459:28: error: 'RxBuff_t' has no member named 'buff'
+  459 |     *buff = (uint8_t *)p + offsetof(RxBuff_t, buff);
+      |                            ^~~~~~~~
+../Src/ethernetif.c: In function 'HAL_ETH_RxLinkCallback':
+../Src/ethernetif.c:483:30: error: 'RxBuff_t' has no member named 'buff'
+  483 |   p = (struct pbuf *)(buff - offsetof(RxBuff_t, buff));
+      |                              ^~~~~~~~
+make: *** [Src/subdir.mk:49: Src/ethernetif.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+10:20:37 Build Failed. 28 errors, 4 warnings. (took 2s.143ms)
+
