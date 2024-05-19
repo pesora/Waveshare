@@ -1,0 +1,7 @@
+../User/Protocol.c:24:9:check_sum	2
+../User/Protocol.c:38:6:set_computer_value	1
+../User/Protocol.c:62:9:GUI_GetPacketLen	1
+../User/Protocol.c:78:6:GUI_InitPacket	1
+../User/Protocol.c:91:6:GUI_InitStateInfo	1
+../User/Protocol.c:100:6:GUI_MakePacket	1
+../User/Protocol.c:115:6:GUI_SendPacket	1

@@ -1,0 +1,7 @@
+../User/Protocol.c:24:9:check_sum	24	static
+../User/Protocol.c:38:6:set_computer_value	24	static
+../User/Protocol.c:62:9:GUI_GetPacketLen	16	static
+../User/Protocol.c:78:6:GUI_InitPacket	4	static
+../User/Protocol.c:91:6:GUI_InitStateInfo	4	static
+../User/Protocol.c:100:6:GUI_MakePacket	8	static
+../User/Protocol.c:115:6:GUI_SendPacket	8	static

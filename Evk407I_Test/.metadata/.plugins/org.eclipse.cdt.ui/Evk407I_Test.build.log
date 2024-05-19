@@ -1,0 +1,10 @@
+21:46:39 **** Incremental Build of configuration Debug for project Evk407I_Test ****
+make -j12 all 
+arm-none-eabi-size  Evk407I_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  86892	    144	  35936	 122972	  1e05c	Evk407I_Test.elf
+Finished building: default.size.stdout
+ 
+
+21:46:40 Build Finished. 0 errors, 0 warnings. (took 855ms)
+

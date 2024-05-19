@@ -1,0 +1,16 @@
+18:00:45 **** Incremental Build of configuration Debug for project Evk407I_Test ****
+make -j12 all 
+arm-none-eabi-gcc -o "Evk407I_Test.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\7.Sunshine\Waveshare\Evk407I_Test\workspace\Evk407I_Test\STM32F407IGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Evk407I_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Evk407I_Test.elf
+ 
+arm-none-eabi-size  Evk407I_Test.elf 
+arm-none-eabi-objdump -h -S Evk407I_Test.elf  > "Evk407I_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  89048	    144	  35952	 125144	  1e8d8	Evk407I_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: Evk407I_Test.list
+ 
+
+18:00:53 Build Finished. 0 errors, 0 warnings. (took 7s.541ms)
+

@@ -1,0 +1,7 @@
+../Utils/ring_buffer.c:11:9:RB_Init	2
+../Utils/ring_buffer.c:25:6:RB_Clear	1
+../Utils/ring_buffer.c:32:9:RB_IsEmpty	1
+../Utils/ring_buffer.c:37:9:RB_IsFull	1
+../Utils/ring_buffer.c:42:6:RB_Write	2
+../Utils/ring_buffer.c:51:9:RB_Read	1
+../Utils/ring_buffer.c:58:10:RB_GetCount	1

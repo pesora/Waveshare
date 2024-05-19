@@ -1,0 +1,10 @@
+17:53:30 **** Incremental Build of configuration Debug for project LEDTest ****
+make -j12 all 
+arm-none-eabi-size  LEDTest.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5848	     20	   1572	   7440	   1d10	LEDTest.elf
+Finished building: default.size.stdout
+ 
+
+17:53:30 Build Finished. 0 errors, 0 warnings. (took 446ms)
+
